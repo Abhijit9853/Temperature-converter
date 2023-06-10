@@ -1,0 +1,124 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+h1 {
+    color: crimson;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.input1 {
+    height: 30px;
+    width: 200px;
+}
+
+#select {
+    height: 35px;
+    width: 100px;
+}
+
+#select1 {
+    height: 35px;
+    width: 100px;
+}
+
+#valid {
+    font-size: 20px;
+}
+
+.result {
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 81%;
+    left: 11%;
+}
+
+.btn {
+    height: 40px;
+    width: 167px;
+    text-align: center;
+    border: 2px;
+    position: absolute;
+    left: 0%;
+    color: white;
+    background-color: maroon;
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+    color: rgb(3, 3, 3);
+    border-color: brown;
+    border: 5px;
+    
+}
+
+.colour {
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+@media only screen and (max-width:750px) {
+    .container {
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 20%;
+        left: 30px;
+        display: inline-block;
+        flex-direction: column;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+    #valid {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    input1 {
+        height: 2.1rem;
+        width: auto;
+        text-align: center;
+    }
+
+    #select {
+        height: 2.1rem;
+        width: auto;
+        text-align: center;
+    }
+    .result {
+        height: auto;
+        width: auto;
+    }
+    
+    .btn {
+        height: auto;
+        width: auto;
+        text-align: center;
+        border: 2px;
+        position: absolute;
+        left: 30%;
+        color: darkcyan;
+        background-color: teal;
+    }
+    
+    .btn:hover {
+        background-color: cornflowerblue;
+        color: azure;
+        border-color: brown;
+        border: 5px;
+    }
+}
